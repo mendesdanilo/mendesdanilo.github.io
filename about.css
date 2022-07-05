@@ -1,0 +1,158 @@
+body {
+  margin: 0; 
+  max-width: 100%; 
+  font-family: 'Jost', sans-serif;
+}
+
+.intro-div {
+  padding-top: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  
+}
+
+.about-h3{
+  text-align: center;
+}
+
+.about-h4{
+  text-align: center;
+}
+
+#about-header {
+  text-align: center;
+}
+
+h5 {
+  color: gray
+}
+
+.change-color-button {
+  height: 25px;
+}
+
+ .outer {
+  padding: 0 4vw;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  height: 50px;
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.navbar-brand {
+  flex: 1;
+  font-size:25px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.navbar-menu {
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 800px;
+  width:100%;
+}
+
+.site-main {
+  flex-grow: 1;
+  margin-top: calc(var(--header-height)*3 + 5px);
+  z-index: 100;
+  background-color: rgb(235, 235, 235);
+ }
+
+.post-section {
+  margin-top: 16px;
+  position: relative;
+  z-index: 50;
+  padding: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.post-header {
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.post-image {
+  overflow: hidden;
+}
+
+.post-content h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin: .5em 0 .2em;
+}
+
+.whatsapp-img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  object-fit: cover;
+}
+
+img:hover {
+  -webkit-transform:scale(1.8); 
+  transform:scale(1.8);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#buttonsDiv {
+  display:flex;
+  margin-bottom: 30px;
+}
+
+.change-color-button {
+  margin-bottom: 10px;
+}
+
+.picture-p {
+  text-align: center;
+}
+
+.hfiveAboutDiv {
+  text-align: center;
+}

@@ -1,0 +1,189 @@
+body {
+ margin: 0; 
+ max-width: 100%; 
+ font-family: sans-serif;
+ background-color: rgb(235, 235, 235);
+}
+
+#previousYears {
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+#btnYears {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+#divMonths2021 {
+margin-left: 200px;
+}
+
+h2 {
+ text-align: center;
+}
+
+h5 {
+ color: gray
+}
+
+.change-color-button {
+ height: 25px;
+}
+
+a {
+ text-decoration: none;
+}
+  
+.navbar {
+display: flex;
+justify-content: space-between;
+background: transparent;
+height: 50px;
+font-size: 1rem;
+margin-left: 20px;
+margin-right: 40px;
+}
+  
+.navbar-brand {
+flex: 1;
+font-size:25px;
+text-decoration: none;
+margin-top: 10px;
+}
+  
+.navbar-menu {
+text-align: center;
+padding: 14px 14px;
+text-decoration: none;
+font-size: 18px;
+}
+  
+.post-section {
+background-color: rgb(247, 247, 247);
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+border-radius: 15px;
+padding: 1rem;
+margin-bottom: 15px;
+}
+
+time {
+text-transform: uppercase;
+color: grey;
+}
+
+#februaryDiv {
+position: relative;
+z-index: 50;
+padding: 1rem;
+background-color: rgb(247, 247, 247);
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+margin-bottom: 15px;
+border-radius: 15px;
+}
+
+#marchDiv {
+  position: relative;
+  z-index: 50;
+  padding: 1rem;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-bottom: 15px;
+  border-radius: 15px;
+  }
+  
+.post-header {
+color: grey;
+font-size: 1rem;
+text-transform: uppercase;
+}
+  
+.post-content h2 {
+font-size: 3.6rem;
+font-weight: 700;
+margin: .5em 0 .2em;
+}
+
+p {
+word-wrap: break-word; 
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+  }
+
+#buttonsDiv {
+display:flex;
+justify-content: center;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.picture-p {
+text-align: center;
+}
+
+.btnSept {
+    margin-right: 15px;
+  }
+  
+.btnOct {
+    margin-right: 15px;
+}
+
+.btnDec {
+    margin-left: 15px;
+}
+
+
+.btnYear {
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+#displayJanBtn {
+  margin-right: 15px;
+}
+
+h3 {
+    color:black;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.8); 
+    transform:scale(1.8);
+}
+
+#currentYear {
+  margin-top: 16px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 50;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  max-width: 800px;
+}
+
+#previousMonths {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  #displayMarBtn {
+    margin-left: 15px;
+  }

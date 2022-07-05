@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilo Mendes</title>
+    <link rel="stylesheet" href="/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script src="https://unpkg.com/vue@next" defer></script>
+<script src="contact.js" defer></script>
+
+<body>
+    <!-- <div class="navbar">
+        <div class="navbar-brand">WebSite</div>
+        <div class="navbar-menu" style="cursor:pointer;" onclick="window.location='http://mendesdanilo.github.io/';">
+            Daily
+        </div>
+        <div class="navbar-menu" style="cursor:pointer;"
+            onclick="window.location='http://mendesdanilo.github.io/about';">
+            Personal
+        </div>
+        <div class="navbar-menu" style="cursor:pointer;"
+            onclick="window.location='http://mendesdanilo.github.io/contact';">
+            Contact
+        </div>
+    </div> -->
+    <main id="site-main" class="site-main outer">
+        <div class="inner">
+            <p>Contact:</p>
+            <p>mmdanilo@gmail.com</p>
+         </div>
+</main>
+</body> 
+
+<section id="comment">
+    <p class="comment" v-if="tasks.length === 0">
+        No comments have been added, please add one. 
+      </p>
+    <ul>
+        <p class="comment" v-for="task in tasks" :key="task">
+          {{ task }}
+        </p>
+      </ul>
+      <div class="comment">
+        <textarea type="text" v-model="enteredTask" /></textarea>
+        <button @click="addTask" @click="resetInput">Add Comment</button>
+    </div>
+</section>
+
+<div class="counter">
+    <a href='https://dissertation-writingservice.com/'>Dissertation-WritingService.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=0a14c26616b5d44d44181f396f960c0890b50c8f'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/912980/t/2"></script>
+</div>
+
+<!-- <section class="">
+    <article class="post-article">
+        <div class="div-icons">
+            <a href="https://www.linkedin.com/in/danilo-mendes-/">
+                <img class="about-image" src="images/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://www.instagram.com/college.pro">
+                <img class="about-image" src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/coll3g3pro">
+                <img class="about-image" src="images/facebook.png" alt="fb">
+            </a>
+        </div>
+        </article>
+</section>  -->
