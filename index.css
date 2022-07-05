@@ -1,189 +1,158 @@
 body {
- margin: 0; 
- max-width: 100%; 
- font-family: sans-serif;
- background-color: rgb(235, 235, 235);
+  margin: 0; 
+  max-width: 100%; 
+  font-family: 'Jost', sans-serif;
 }
 
-#previousYears {
-display: flex;
-justify-content: center;
-margin-bottom: 15px;
-margin-top: 15px;
+.intro-div {
+  padding-top: 15px;
 }
 
-#btnYears {
-display: flex;
-justify-content: center;
-margin-bottom: 30px;
-margin-top: 30px;
-}
-
-#divMonths2021 {
-margin-left: 200px;
+h1 {
+  text-align: center;
 }
 
 h2 {
- text-align: center;
+  text-align: center;
+  
+}
+
+.about-h3{
+  text-align: center;
+}
+
+.about-h4{
+  text-align: center;
+}
+
+#about-header {
+  text-align: center;
 }
 
 h5 {
- color: gray
+  color: gray
 }
 
 .change-color-button {
- height: 25px;
+  height: 25px;
+}
+
+ .outer {
+  padding: 0 4vw;
+  position: relative;
 }
 
 a {
- text-decoration: none;
+  text-decoration: none;
 }
-  
+
 .navbar {
-display: flex;
-justify-content: space-between;
-background: transparent;
-height: 50px;
-font-size: 1rem;
-margin-left: 20px;
-margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  height: 50px;
+  font-size: 1rem;
+  margin-left: 20px;
+  margin-right: 40px;
 }
-  
+
 .navbar-brand {
-flex: 1;
-font-size:25px;
-text-decoration: none;
-margin-top: 10px;
+  flex: 1;
+  font-size:25px;
+  text-decoration: none;
+  margin-top: 10px;
 }
-  
+
 .navbar-menu {
-text-align: center;
-padding: 14px 14px;
-text-decoration: none;
-font-size: 18px;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 18px;
 }
-  
+
+.inner {
+  margin: 0 auto;
+  max-width: 800px;
+  width:100%;
+}
+
+.site-main {
+  flex-grow: 1;
+  margin-top: calc(var(--header-height)*3 + 5px);
+  z-index: 100;
+  background-color: rgb(235, 235, 235);
+ }
+
 .post-section {
-background-color: rgb(247, 247, 247);
-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-border-radius: 15px;
-padding: 1rem;
-margin-bottom: 15px;
-}
-
-time {
-text-transform: uppercase;
-color: grey;
-}
-
-#februaryDiv {
-position: relative;
-z-index: 50;
-padding: 1rem;
-background-color: rgb(247, 247, 247);
-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-margin-bottom: 15px;
-border-radius: 15px;
-}
-
-#marchDiv {
+  margin-top: 16px;
   position: relative;
   z-index: 50;
   padding: 1rem;
-  background-color: rgb(247, 247, 247);
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 15px;
-  }
-  
+  background-color: white;
+}
+
 .post-header {
-color: grey;
-font-size: 1rem;
-text-transform: uppercase;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
-  
+
+.post-image {
+  overflow: hidden;
+}
+
 .post-content h2 {
-font-size: 3.6rem;
-font-weight: 700;
-margin: .5em 0 .2em;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin: .5em 0 .2em;
 }
 
-p {
-word-wrap: break-word; 
-}
-
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-  }
-
-#buttonsDiv {
-display:flex;
-justify-content: center;
-margin-bottom: 30px;
-margin-top: 30px;
-}
-
-.picture-p {
-text-align: center;
-}
-
-.btnSept {
-    margin-right: 15px;
-  }
-  
-.btnOct {
-    margin-right: 15px;
-}
-
-.btnDec {
-    margin-left: 15px;
-}
-
-
-.btnYear {
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 20px;
-}
-
-#displayJanBtn {
-  margin-right: 15px;
-}
-
-h3 {
-    color:black;
+.whatsapp-img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 img {
-    transition:transform 0.25s ease;
+  object-fit: cover;
 }
 
 img:hover {
-    -webkit-transform:scale(1.8); 
-    transform:scale(1.8);
+  -webkit-transform:scale(1.8); 
+  transform:scale(1.8);
 }
 
-#currentYear {
-  margin-top: 16px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 50;
-  padding: 1rem;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#buttonsDiv {
+  display:flex;
+  margin-bottom: 30px;
+}
+
+.change-color-button {
   margin-bottom: 10px;
-  border-radius: 15px;
-  max-width: 800px;
 }
 
-#previousMonths {
-    display:flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
+.picture-p {
+  text-align: center;
+}
 
-  #displayMarBtn {
-    margin-left: 15px;
-  }
+.hfiveAboutDiv {
+  text-align: center;
+}
