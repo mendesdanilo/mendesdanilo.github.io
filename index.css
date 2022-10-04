@@ -33,7 +33,7 @@ h5 {
   color: gray
 }
 
-.change-color-button {
+p.change-color-button {
   background-color: red;
   height: 25px;
 
