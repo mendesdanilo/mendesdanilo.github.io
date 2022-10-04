@@ -34,7 +34,9 @@ h5 {
 }
 
 .change-color-button {
+  background-color: red;
   height: 25px;
+
 }
 
  .outer {
