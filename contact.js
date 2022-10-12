@@ -1,10 +1,10 @@
 console.log("JS connected");
 
-let contact = document.getElementsByClassName('post-article')
+// let contact = document.getElementsByClassName('post-article')
 
-contact.innerHTML = "https://www.linkedin.com/in/danilo-mendes-/" 
-contact.innerHTML = "Instagram @college.pro" 
-contact.innerHTML = "https://facebook.com/coll3g3pro"
+// contact.innerHTML = "https://www.linkedin.com/in/danilo-mendes-/" 
+// contact.innerHTML = "Instagram @college.pro" 
+// contact.innerHTML = "https://facebook.com/coll3g3pro"
 
 
 
